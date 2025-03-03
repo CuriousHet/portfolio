@@ -6,7 +6,6 @@ import {
   IconCode,
 } from "@tabler/icons-react";
 import Link from "next/link";
-import { title } from "process";
 
 export function FloatingDockDemo() {
   const links = [

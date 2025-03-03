@@ -71,7 +71,7 @@ export default function Home() {
     "/images/kafka.png",
     "/images/docker.png",
   ];
-  const techStack = [
+  const techStack = useMemo(() => [
     { key: "1", category: "Programming Languages", technology: "Python, C++, JavaScript, Go" },
     { key: "2", category: "Data Engineering", technology: "Snowflake, Airflow, dbt" },
     { key: "3", category: "Big Data", technology: "Hadoop, Spark, Kafka, Hive" },
@@ -82,7 +82,8 @@ export default function Home() {
     { key: "8", category: "Machine Learning", technology: "TensorFlow, Scikit-Learn, NLP" },
     { key: "9", category: "Data Visualization", technology: "Matplotlib, Seaborn, AWS QuickSight" },
     { key: "10", category: "Collaboration Tools", technology: "Git, GitHub, GitLab" },
-  ];
+  ], []);
+  
   const pages = Math.ceil(techStack.length / rowsPerPage);
   const items = useMemo(() => {
     const start = (page - 1) * rowsPerPage;
@@ -120,7 +121,7 @@ export default function Home() {
               <div className="md:w-2/3">
                 <h1 className="text-[50px] font-bold leading-tight custom-title-font">Het Patel</h1>
                 <p className="text-2xl mt-6 custom-body-font">
-                  I'm currently working as a <strong>Data Scientist Intern</strong>. Passionate about <strong>Big Data, Cloud Computing, AI, and Distributed Computing</strong> to create scalable, high-performance systems. Meanwhile, I'm exploring <strong>Golang</strong> to develop efficient, robust solutions that drive innovation.
+                  I&apos;m currently working as a <strong>Data Scientist Intern</strong>. Passionate about <strong>Big Data, Cloud Computing, AI, and Distributed Computing</strong> to create scalable, high-performance systems. Meanwhile, I&apos;m exploring <strong>Golang</strong> to develop efficient, robust solutions that drive innovation.
                 </p>
               </div>
             </div>
