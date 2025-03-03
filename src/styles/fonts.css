@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'ShoulderInline';
+    src: url('/fonts/shoulderinline.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PoppinsThin';
+    src: url('/fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FrederickaTheGreat';
+    src: url('/fonts/FrederickaTheGreat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family:'ShadowsIntoLight';
+    src: url('/fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  .custom-title-font {
+    font-family: 'ShoulderInline', sans-serif;
+  }
+  
+  .custom-body-font {
+    font-family: 'PoppinsThin', sans-serif;
+  }
+  
+
+  .fredericka-the-great-regular {
+    font-family: "FrederickatheGreat", serif;
+  }
+
+  .landing-font {
+    font-family: 'ShadowsIntoLight', sans-serif;
+  }
