@@ -58,7 +58,7 @@ export default function Home() {
   const projectNames = [
     "Golang",
     "Zillow-ETL-Pipeline",
-    "AWS-Unstructed-Streaming",
+    "AWS-Unstructured-Streaming",
     "Medical-RAG",
     "Data-Streaming-With-Kafka",
     "Docker-Tutorial",
